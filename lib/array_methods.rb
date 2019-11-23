@@ -1,11 +1,13 @@
 def Starting_Lakers("Lebron","Davis","Green")
-  Starting_Lakers include?("Green")
+  Starting_Lakers include?("Lebron","Davis","Green")
 
 end
 
 def Starting_Lakers("Lebron","Davis","Green")
   Starting_Lakers.sort
+  
   => ["Davis","Green","Lebron"]
+
 
 
 
@@ -13,7 +15,7 @@ end
 
 def Starting_Lakers("Lebron","Davis","Green")
   Starting_Lakers.reverse
-  => ["Green,"Davis","Lebron"]
+  => ["Green","Davis","Lebron"]
   
 
 end
@@ -24,7 +26,7 @@ def Starting_Lakers("Lebron","Davis","Green")
 
 end
 
-def using_last(array)
+  def S(array)
 
 end
 
