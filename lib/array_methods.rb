@@ -20,16 +20,18 @@ def Starting_Lakers("Lebron","Davis","Green")
 
 end
 
-def Starting_Lakers("Lebron","Davis","Green")
+def Starting_Lakers("Green","Davis","Lebron")
   Starting_Lakers.first
-  => "Lebron"
+  => "Green"
 
 end
 
-  def S(array)
-
+  def Starting_Lakers("Green","Davis","Lebron")
+    Starting_Lakers.last
+    =>"Lebron"
 end
 
-def using_size(array)
-
+def Starting_Lakers("Green","Davis","Lebron")
+  Starting_Lakers.size
+    => 3
 end
